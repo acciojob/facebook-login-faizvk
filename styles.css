@@ -1,80 +1,80 @@
-  body {
-        background-color: #f6f6f6;
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        height: 100vh;
-        margin: 0;
-      }
+body {
+  background-color: #f6f6f6;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  margin: 0;
+}
 
-      .container {
-        display: flex;
-        justify-content: center;
-        align-items: flex-start;
-        gap: 40px;
-      }
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  gap: 40px;
+}
 
-      .left {
-        width: 450px;
-        margin-top: 70px;
-        display: inline-block;
-      }
+.left {
+  width: 450px;
+  margin-top: 70px;
+  display: inline-block;
+}
 
-      .left img {
-        width: 250px;
-      }
+.left img {
+  width: 250px;
+}
 
-      .left p {
-        font-size: 24px;
-        color: #1c1e21;
-      }
+.left p {
+  font-size: 24px;
+  color: #1c1e21;
+}
 
-      .right {
-        background-color: white;
-        padding: 20px;
-        border-radius: 5px;
-        box-shadow: 0 0 10px #ccc;
-        display: flex;
-        flex-direction: column;
-        width: 300px;
-        gap: 10px;
-      }
+.right {
+  background-color: white;
+  padding: 20px;
+  border-radius: 5px;
+  box-shadow: 0 0 10px #ccc;
+  display: flex;
+  flex-direction: column;
+  width: 300px;
+  gap: 10px;
+}
 
-      form {
-        display: flex;
-        flex-direction: column;
-        gap: 10px;
-      }
+form {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
 
-      input {
-        border: 1px solid #ccc;
-        border-radius: 5px;
-        padding: 10px;
-      }
+input {
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  padding: 10px;
+}
 
-      .login {
-        background-color: #1877f2;
-        border-radius: 5px;
-        padding: 10px 20px;
-        border: none;
-        color: white;
-        width: 100%;
-        cursor: pointer;
-      }
+.login {
+  background-color: #1877f2;
+  border-radius: 5px;
+  padding: 10px 20px;
+  border: none;
+  color: white;
+  width: 100%;
+  cursor: pointer;
+}
 
-      a {
-        text-decoration: none;
-        color: #1877f2;
-        text-align: center;
-        display: block;
-      }
+a {
+  text-decoration: none;
+  color: #1877f2;
+  text-align: center;
+  display: block;
+}
 
-      .signup {
-        background-color: #42b72a;
-        border-radius: 5px;
-        padding: 10px 20px;
-        border: none;
-        color: white;
-        width: 100%;
-        cursor: pointer;
-      }
+.signup {
+  background-color: #42b72a;
+  border-radius: 5px;
+  padding: 10px 20px;
+  border: none;
+  color: white;
+  width: 100%;
+  cursor: pointer;
+}
